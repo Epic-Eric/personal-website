@@ -29,24 +29,29 @@
                   </p>
                   <p>
                     I'm a 2nd year <a href="https://engsci.utoronto.ca/program/what-is-engsci/">Engineering Science</a>
-                    student at the University of Toronto.
-                    I'm passionate about Robotics, RL, and Software Engineering.
-                  </p>
-                  <p>
-                    I love the breadth and depth of different engineering disciplines that EngSci offers. Passionate
-                    about combining theoretical knowledge with practical hands-on experience.
+                    student at the University of Toronto, majoring in Robotics Engineering.<br><br>
+                    Previously, I was a Robotics Research Intern at <a href="https://syncereai.com/">Syncere AI</a>,
+                    where I implicitly trained a compliant controller on robot arms using reinforcement learning. <br> I
+                    was
+                    also a SWE at <a href="https://ai.meta.com/research/">Facebook AI Research</a> as part of <a
+                      href="https://fellowship.mlh.io/">MLH Fellowship</a>, where I contributed to <a
+                      href="https://github.com/facebookresearch/SimulEval">SimulEval</a>, an evaluation toolkit for
+                    simultaneous translation. <br><br>
+                    On the side, I also play competitve chess and ultimate frisbee.
                   </p>
                   <p style="text-align:center">
                     <a href="mailto:erictao6666@gmail.com">Email</a> &nbsp;/&nbsp;
                     <a href="intro/resume.pdf">Resume</a> &nbsp;/&nbsp;
                     <a href="https://www.linkedin.com/in/epic-eric/">LinkedIn</a> &nbsp;/&nbsp;
-                    <a href="https://github.com/Epic-Eric">Github</a>
+                    <a href="https://github.com/Epic-Eric">Github</a> &nbsp;/&nbsp;
+                    <a href="https://x.com/epic_eric_666">Twitter</a> &nbsp;/&nbsp;
+                    <a href="https://medium.com/@epic_eric">Medium</a>
                   </p>
                 </td>
                 <td style="padding:2.5%;width:37%;max-width:37%">
-                  <a href="intro/profilepic.jpg"><img
+                  <a href="intro/profilepic.png"><img
                       style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo"
-                      src="intro/profilepic.jpg" class="hoverZoomLink"></a>
+                      src="intro/profilepic.png" class="hoverZoomLink"></a>
                 </td>
               </tr>
             </tbody>
@@ -59,12 +64,72 @@
                 <td style="padding:16px;width:100%;vertical-align:middle">
                   <h2>Research</h2>
                   <p>
-                    My research interests lie in robotics and reinforcement learning.
-                  </p>
-                  <p>
-                    Coming soon summer 2025 ...
+                    I'm interested in robotics, reinforcement learning, and world models. Some below
+                    are <span style="background-color: #ffffd0">highlighted</span> for emphasis.
                   </p>
                 </td>
+              </tr>
+            </tbody>
+          </table>
+          <table
+            style="width:100%;border:0px;border-spacing:0px 4px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr bgcolor="#ffffd0">
+                <td style="padding:16px;width:20%;vertical-align:top">
+                  <div class="one">
+                    <img src='research/kochrl.gif' width="160">
+                  </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:top">
+                  <span class="papertitle">Compliant Koch robot arm using reinforcement learning in Isaac Lab @ Syncere
+                    AI
+                    2025</span>
+                  <br>
+                  <p>
+                    Motivation: current robotic arms are position controlled, unable to react to external forces while force sensors are expensive. Thus, I trained an end-to-end impedance controller with RL in Isaac Lab. The most difficult challenge was overcoming the sim-to-real gap and deploying on the physical Koch robot. 
+                    Furthermore, I developed a novel bilateral teleoperation system using servo current readings, boosting data
+                    collection
+                    by 17%.
+                    The teleoperation data was then used to train a diffusion policy to allow for compliant movements
+                    during inference.
+                  </p>
+                  <p>
+                    <a href="research/unerd poster.pdf">Poster</a> /
+                    <a href="https://github.com/Epic-Eric/KochRL">GitHub</a>
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="2" style="height:10px"></td>
+              </tr>
+
+              <tr bgcolor="#ffffd0">
+                <td style="padding:16px;width:20%;vertical-align:top">
+                  <div class="one">
+                    <img src='projects/fair.png' width="160">
+                  </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:top">
+                  <span class="papertitle">SimulEval @ Facebook AI Research 2024</span>
+                  <br>
+                  <p>
+                    I developed features for SimulEval - FAIR's open source simultaneous translation evaluation toolkit
+                    -
+                    using Python.
+                    Features include visualization (aiding researchers in interpretting output from the wait-k
+                    algorithm), remote translation using Docker, and live transcription demo using Whisper.
+                  </p>
+                  <p>
+                    <a href="https://medium.com/@epic_eric/mlh-software-engineering-2024-summer-4feac4fff774"> Medium
+                      blog</a> /
+                    <a href="https://www.youtube.com/watch?v=9g8gRykOpJk">Live Demo</a> /
+                    <a href="https://github.com/facebookresearch/SimulEval">GitHub</a>
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" style="height:10px"></td>
               </tr>
             </tbody>
           </table>
@@ -76,7 +141,11 @@
                 <td style="padding:16px;width:100%;vertical-align:middle">
                   <h2>Projects</h2>
                   <p>
-                    I'm always looking to build cool things!
+                    I'm always looking to build cool things! My strengths shine through in embedded systems, and my goal
+                    is to leverage mechanical, electrical and software engineering skills to improve well-beings of
+                    underprivileged communities. Check out <a href="#nail-braille">Nail Braille</a> and <a
+                      href="#vita">Vita</a> on my involvment in human-centered design. Some projects are <span
+                      style="background-color: #ffffd0">highlighted</span> for emphasis.
                   </p>
                 </td>
               </tr>
@@ -84,38 +153,144 @@
           </table>
 
           <table
-            style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
               <tr>
-                <td style="padding:16px;width:20%;vertical-align:middle">
+                <td style="padding:16px;width:20%;vertical-align:top">
                   <div class="one">
-                    <img src='projects/simuleval.png' width="160">
+                    <img src='projects/utfr.jpg' width="160">
                   </div>
                 </td>
-                <td style="padding:8px;width:80%;vertical-align:middle">
-                  <span class="papertitle">SimulEval @ Facebook AI Research 2024</span>
+                <td style="padding:8px;width:80%;vertical-align:top">
+                  <span class="papertitle">UofT Formula Racing | 2024-2025</span>
                   <br>
                   <p>
-                    Developed features for SimulEval - FAIR's open source simultaneous translation evaluation toolkit -
-                    using Python.
-                    Features include visualization, remote and live translation. Aid researchers in interpretting output
-                    from the wait-k algorithm.
-                  </p>
-                  <p>
-                    <a href="https://www.youtube.com/watch?v=9g8gRykOpJk">Live Demo</a> /
-                    <a href="https://github.com/facebookresearch/SimulEval">GitHub</a>
+                    In my first year, I designed brake piston components using Solidworks for our 2024 FSAE competition
+                    vehicle. In my second year, I joined the Controls team and implemented MPC and pure pursuit
+                    controllers.
                   </p>
                 </td>
               </tr>
 
               <tr>
-                <td style="padding:16px;width:20%;vertical-align:middle">
+                <td style="padding:16px;width:20%;vertical-align:top">
+                  <div class="one">
+                    <img src='projects/candidly.png' width="160">
+                  </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:top">
+                  <span class="papertitle">Candidly @ CalHacks 2025</span>
+                  <br>
+                  <p>
+                    This anti-Cluely web app tracks the candidates' gaze and generates a heat map for the interviewer in
+                    real time, ensuring fairness and transparency.
+                    Specifically, I worked on the middleware speech to text service with Deepgram, post interview report
+                    generation with Gemini
+                    and backend Javascript integration.
+                  </p>
+                  <p>
+                    <a href="https://devpost.com/software/candidly">Devpost</a>
+                  </p>
+                </td>
+              </tr>
+
+              <tr bgcolor="#ffffd0">
+                <td style="padding:16px;width:20%;vertical-align:top">
+                  <div class="one">
+                    <img src='projects/dum-e.png' width="160">
+                  </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:top">
+                  <span class="papertitle">DUM-E @ Hack the North 2025</span>
+                  <br>
+                  <p>
+                    Our team invented DUM-E from the Iron Man movie - an NLP powered robotic arm that can reason,
+                    generalize, and
+                    execute tasks such as grasping, waving, and doing pick & place - with just voice, winning Hack
+                    the North. This is done by leveraging OpenCV and homography to locate objects, Llama 3.3 for voice
+                    recognition, and multimodal Groq VLA for task execution.
+                    Specifically, I analytically solved the 5 DOF inverse kinematics for the arm, tuned the servo
+                    motors, and deployed on Raspberry Pi with inference
+                    time of &lt; 1 ms. </p>
+                  <p>
+                    <a href="https://devpost.com/software/dum-e-kgx6at">Devpost</a>
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="2" style="height:20px"></td>
+              </tr>
+
+              <tr>
+                <td style="padding:16px;width:20%;vertical-align:top">
+                  <div class="one">
+                    <img src='projects/utat.gif' width="160">
+                  </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:top">
+                  <span class="papertitle">UofT Aerospace Team | 2024-2025</span>
+                  <br>
+                  <p>
+                    In the 2024 season, the team was tasked to create a VTOL for package delivery. My contribution included creating a simulation of the landing zone with April Tags in Gazebo, simulating the drone's downward-facing camera in rviz, and passing the data to a ROS node for localization.
+                  </p>
+                </td>
+              </tr>
+
+              <tr bgcolor="#ffffd0">
+                <td style="padding:16px;width:20%;vertical-align:top">
+                  <div class="one">
+                    <img src='projects/autotune.png' width="160">
+                  </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:top">
+                  <span class="papertitle">Autotune @ GenAI Genesis Hackathon 2025</span>
+                  <br>
+                  <p>
+                    We pioneered an LLM marketplace to fine-tune and deploy AI models. Autotune empowers non-technical
+                    creators and those with lack of GPU resources to outsource finetunement and streamline the LLM
+                    development process, democratizing access to LLM
+                    computing. My team produly won Best ML Hacks award. This was built with Python, PyTorch, Docker,
+                    HugginFace API, and Google Cloud, and I specifically worked on the Next.js frontend and integration.
+                  </p>
+                  <p>
+                    <a href="https://devpost.com/software/autotune-8sk5xd">Devpost</a>
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="2" style="height:20px"></td>
+              </tr>
+
+              <tr>
+                <td style="padding:16px;width:20%;vertical-align:top">
+                  <div class="one">
+                    <img src='projects/mapmatch.png' width="160">
+                  </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:top">
+                  <span class="papertitle">MapMatch @ AWS Hack the Student Life 2024</span>
+                  <br>
+                  <p>
+                    MapMatch is a roommate matching application designed to connect individuals seeking compatible
+                    living partners using keyword extraction, vector embeddings, and cosine similarity. I developed
+                    the frontend with React and integrated it with the backend and AWS DynamoDB.
+                  </p>
+                  <p>
+                    <a href="https://devpost.com/software/roomiematch-xoe75b">Devpost</a>
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:16px;width:20%;vertical-align:top">
                   <div class="one">
                     <img src='projects/viral-insight.png' width="160">
                   </div>
                 </td>
-                <td style="padding:8px;width:80%;vertical-align:middle">
+                <td style="padding:8px;width:80%;vertical-align:top">
                   <span class="papertitle">Viral Insight @ Buildspace 2024</span>
                   <br>
                   <p>
@@ -124,21 +299,23 @@
                     could compare between potential title names, maximize video performance and attract a wider
                     audience.
                     We got 120+ upvotes on ProductHunt, 500+ page views on Vercel, and our first paying
-                    customer ($45 USD!!) when we officially launched in 2024 Summer.
+                    customer ($45 USD) when we officially launched in 2024 Summer.
                   </p>
                   <p>
-                    <a href="https://www.producthunt.com/posts/viral-insight">Product Hunt</a>
+                    <a href="https://www.producthunt.com/posts/viral-insight">Product Hunt</a> /
+                    <a href="https://www.youtube.com/watch?v=MNeKFptb8Co">Launch video</a> /
+                    <a href="https://github.com/Github11200/viral-insight">GitHub</a>
                   </p>
                 </td>
               </tr>
 
-              <tr>
-                <td style="padding:16px;width:20%;vertical-align:middle">
+              <tr id="vita" bgcolor="#ffffd0">
+                <td style="padding:16px;width:20%;vertical-align:top">
                   <div class="one">
                     <img src='projects/vita.jpg' width="160">
                   </div>
                 </td>
-                <td style="padding:8px;width:80%;vertical-align:middle">
+                <td style="padding:8px;width:80%;vertical-align:top">
                   <span class="papertitle">Vita @ UBC Geering Up 2023</span>
                   <br>
                   <p>
@@ -153,14 +330,17 @@
                   </p>
                 </td>
               </tr>
-
               <tr>
-                <td style="padding:16px;width:20%;vertical-align:middle">
+                <td colspan="2" style="height:20px"></td>
+              </tr>
+
+              <tr id="nail-braille" bgcolor="#ffffd0">
+                <td style="padding:16px;width:20%;vertical-align:top">
                   <div class="one">
                     <img src='projects/nail-braille.jpg' width="160">
                   </div>
                 </td>
-                <td style="padding:8px;width:80%;vertical-align:middle">
+                <td style="padding:8px;width:80%;vertical-align:top">
                   <span class="papertitle">Nail Braille @ Shad Western 2022</span>
                   <br>
                   <p>
@@ -177,14 +357,17 @@
                   </p>
                 </td>
               </tr>
+              <tr>
+                <td colspan="2" style="height:20px"></td>
+              </tr>
 
               <tr>
-                <td style="padding:16px;width:20%;vertical-align:middle">
+                <td style="padding:16px;width:20%;vertical-align:top">
                   <div class="one">
                     <img src='projects/vex.png' width="160">
                   </div>
                 </td>
-                <td style="padding:8px;width:80%;vertical-align:middle">
+                <td style="padding:8px;width:80%;vertical-align:top">
                   <span class="papertitle">VEX & FIRST Robotics @ Ten Ton Robotics 2021 - 2024</span>
                   <br>
                   <p>
@@ -194,39 +377,8 @@
                     programming experiences, leading my team to 3 World Championships.
                   </p>
                   <p>
-                    <a href="https://www.youtube.com/watch?v=eyDEXsmhFes">Odometry Demo</a>
-                  </p>
-                </td>
-              </tr>
-
-              <tr>
-                <td style="padding:16px;width:20%;vertical-align:middle">
-                  <div class="one">
-                    <img src='projects/utfr.jpg' width="160">
-                  </div>
-                </td>
-                <td style="padding:8px;width:80%;vertical-align:middle">
-                  <span class="papertitle">UofT Formula Racing</span>
-                  <br>
-                  <strong>Braking Team - Brake Piston Design</strong>
-                  <p>
-                    Designing brake piston components using Solidworks for the 2024 FSAE competition vehicle.
-                  </p>
-                </td>
-              </tr>
-
-              <tr>
-                <td style="padding:16px;width:20%;vertical-align:middle">
-                  <div class="one">
-                    <img src='projects/utat.gif' width="160">
-                  </div>
-                </td>
-                <td style="padding:8px;width:80%;vertical-align:middle">
-                  <span class="papertitle">UofT Aerospace Team</span>
-                  <br>
-                  <strong>Software Team - Camera Simulation</strong>
-                  <p>
-                    Developing camera simulation and localization systems in Gazebo for autonomous drone navigation.
+                    <a href="https://www.youtube.com/watch?v=eyDEXsmhFes">Odometry Demo</a> /
+                    <a href="https://github.com/Epic-Eric/2024_VEX_1010N">2024 Season GitHub</a>
                   </p>
                 </td>
               </tr>
@@ -238,13 +390,73 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
               <tr>
+                <td style="height:20px"></td>
+              </tr>
+              <tr>
                 <td style="padding:16px;width:100%;vertical-align:middle">
                   <h2>Invited Talks</h2>
                   <p>
-
                   </p>
                 </td>
               </tr>
+            </tbody>
+          </table>
+
+          <table
+            style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+
+              <tr>
+                <td style="padding:16px;width:20%;vertical-align:top">
+                  <div class="one">
+                    <img src='invited_talks/free-range-humans.webp' width="160">
+                  </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:top">
+                  <span class="papertitle">Harnessing AI in Education @ Free Range Humans 2024</span>
+                  <br>
+                  <p>
+                    During the podcast episode hosted by Jal Mehta, a professor at the Harvard Graduate school of
+                    Education, and joined by two BC high school superintendents, I represented the student body whose
+                    education system is becoming more integrated with AI. I presented a student POV in how AI is used,
+                    its potential in promoting equity in education, and discussed the nuance of banning AI in school.
+                    There is signifcant challenge in building a balance between exploration/experimentation and safety
+                    guardrails. As well, we must learn the positive and negative effects of generative AI technologies
+                    in the classroom, and to what extent AI helps with critical thinking and cognitive development
+                    versus grade-driven answer matching. We ended with a debate over whether these new technologies will
+                    really transform education. Overall, I'm very grateful to have represented my peers and discussed
+                    the ambiguous relationship between humans and machines in the education sphere.
+                  </p>
+                  <p>
+                    <a
+                      href="https://podcasts.apple.com/ca/podcast/harnessing-ai-in-education-a-conversation-with/id1571981852?i=1000657954412">Podcast</a>
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding:16px;width:20%;vertical-align:top">
+                  <div class="one">
+                    <img src='invited_talks/tedtalk.jpg' width="160">
+                  </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:top">
+                  <span class="papertitle">Take the First Step: What I Learned from Talking to 100 Strangers @ TEDx Talk
+                    2024</span>
+                  <br>
+                  <p>
+                    We oftentimes are too worried about the risks: making a first move on a crush, joining a competition
+                    that you don't feel qualified for, networking with people that judge you constantly. Yet, taking the
+                    first step is crucial to self-improvement, and with it comes the ups and downs that make life
+                    meaningful. With my talk, I encourage everyone to take action and make that first step that we are
+                    now empowered to do.
+                  </p>
+                  <p>
+                    <a href="https://www.youtube.com/watch?v=ankFRksF2eA">TEDx Talk</a>
+                  </p>
+                </td>
+              </tr>
+
             </tbody>
           </table>
 
@@ -255,9 +467,9 @@
                 <td style="padding:0px">
                   <br>
                   <p style="text-align:center;font-size:small;">
-                    2025, made with &lt;3 and strawberry smoothie
+                    2025, Made with &lt;3 and banana+strawberry smoothie
                     <br>
-                    Credits to <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's
+                    Adapted from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's
                       website</a>.
                   </p>
                 </td>
