@@ -30,20 +30,16 @@
                     Eric Xie
                   </p>
                   <p>
-                    I'm a 2nd year <a href="https://engsci.utoronto.ca/program/what-is-engsci/">Engineering Science</a>
-                    student at the University of Toronto, majoring in Robotics Engineering.<br><br>
-                    Previously, I was a Robotics Research Intern at <a href="https://syncereai.com/">Syncere AI</a>,
-                    where I implicitly trained a compliant controller on robot arms using reinforcement learning. <br> I
-                    was
-                    also a SWE at <a href="https://ai.meta.com/research/">Facebook AI Research</a> as part of <a
-                      href="https://fellowship.mlh.io/">MLH Fellowship</a>, where I contributed to <a
-                      href="https://github.com/facebookresearch/SimulEval">SimulEval</a>, an evaluation toolkit for
-                    simultaneous translation. <br><br>
-                    On the side, I also play competitve chess and ultimate frisbee.
+                    I'm currently working on Isaac Sim at NVIDIA and studying robotics at the University of Toronto.<br><br>
+                    Previously, I researched <a href="https://arxiv.org/abs/2609.21000">spinning radar perception</a> at ASRL with Prof. Tim Barfoot, trained an
+                    <a href="https://github.com/Epic-Eric/KochRL">impedance controller using RL</a> at Syncere AI, and contributed to
+                    <a href="https://github.com/facebookresearch/SimulEval">open source</a> at Facebook AI Research.<br><br>
+                    On the side, I also play competitive chess and ultimate frisbee.
                   </p>
                   <p style="text-align:center">
-                    <a href="mailto:erictao6666@gmail.com">Email</a> &nbsp;/&nbsp;
+                    <a href="mailto:ericx.xie@mail.utoronto.ca">Email</a> &nbsp;/&nbsp;
                     <a href="intro/resume.pdf">Resume</a> &nbsp;/&nbsp;
+                    <a href="https://scholar.google.com/citations?user=STJyWKEAAAAJ&amp;hl=en">Scholar</a> &nbsp;/&nbsp;
                     <a href="https://www.linkedin.com/in/epic-eric/">LinkedIn</a> &nbsp;/&nbsp;
                     <a href="https://github.com/Epic-Eric">Github</a> &nbsp;/&nbsp;
                     <a href="https://x.com/epic_eric_666">Twitter</a> &nbsp;/&nbsp;
@@ -66,7 +62,7 @@
                 <td style="padding:16px;width:100%;vertical-align:middle">
                   <h2>Research</h2>
                   <p>
-                    I'm interested in robotics, reinforcement learning, and world models.
+                    I'm interested in autonomous vehicles, RL, and world models.
                   </p>
                 </td>
               </tr>
@@ -75,6 +71,69 @@
           <table
             style="width:100%;border:0px;border-spacing:0px 4px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
+              <tr>
+                <td style="padding:16px;width:20%;vertical-align:top">
+                  <div class="one">
+                    <img src='research/doppler.gif' width="160" alt="Spinning radar vehicle detection and tracking">
+                  </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:top">
+                  <span class="papertitle">Do Spinning Radar Doppler Velocity Measurements Improve Vehicle Detection and Tracking? @ ASRL 2026</span>
+                  <br>
+                  <em>Eric Xie</em>,
+                  <a href="https://scholar.google.com/citations?user=1GuEZLEAAAAJ&amp;hl=en">Daniil Lisus</a>,
+                  <a href="https://scholar.google.com/citations?user=N_vPIhoAAAAJ&amp;hl=en">Timothy D. Barfoot</a>
+                  <br>
+                  <em>arXiv</em>, 2026
+                  <br>
+                  <p>
+                    Spinning radars have become popular in autonomous driving especially in adverse weather conditions, but their datasets remain limited and are difficult to scale. Thus, we built an
+                    auto-labelling pipeline and labelled all 643 km of the Boreas Road Trip dataset. Using this data as ground truth, we trained detectors and demonstrated that Doppler undistortion can improve detection by up to 2.37 mAP. Furthermore, we introduced a novel per-vehicle velocity estimator and showed that the estimated velocity prior improves
+                    tracking by 13.68 MOTA points.
+                  </p>
+                  <p>
+                    <a href="https://arxiv.org/abs/2609.21000">Paper</a>
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="2" style="height:10px"></td>
+              </tr>
+
+              <tr>
+                <td style="padding:16px;width:20%;vertical-align:top">
+                  <div class="one">
+                    <img src='research/react.png' width="160" alt="REACT framework for user-adaptive sEMG hand pose estimation">
+                  </div>
+                </td>
+                <td style="padding:8px;width:80%;vertical-align:top">
+                  <span class="papertitle">REACT: A Conditioning Framework for User-Adaptive sEMG Hand Pose Estimation @ UofT 2026</span>
+                  <br>
+                  <em>Eric Xie</em>,
+                  <a href="https://scholar.google.com/citations?user=S-SivN8AAAAJ&amp;hl=en">Hei Shing Cheung</a>
+                  <br>
+                  <em>ICRA Workshop on Human-Inspired Principles for Robotic Dexterous Manipulation</em>, 2026
+                  <br>
+                  <p>
+                    Estimating hand pose from surface electromyography (sEMG) is challenging because muscle signals
+                    vary across users and electrode placements. We developed REACT, a lightweight conditioning framework
+                    that adapts a frozen pretrained model to new users using a few calibration recordings.
+                    We encode these recordings into a compact user embedding and use FiLM conditioning
+                    to personalize predictions. On Meta's emg2pose benchmark, we beat the baseline model by up to 3.9% on angular
+                    error.
+                  </p>
+                  <p>
+                    <a href="research/react%20poster.pdf">Poster</a> /
+                    <a href="https://arxiv.org/abs/2605.30127">Paper</a>
+                  </p>
+                </td>
+              </tr>
+
+              <tr>
+                <td colspan="2" style="height:10px"></td>
+              </tr>
+
               <tr>
                 <td style="padding:16px;width:20%;vertical-align:top">
                   <div class="one">
@@ -112,7 +171,7 @@
               <tr>
                 <td style="padding:16px;width:20%;vertical-align:top">
                   <div class="one">
-                    <img src='projects/fair.png' width="160">
+                    <img src='research/fair.png' width="160">
                   </div>
                 </td>
                 <td style="padding:8px;width:80%;vertical-align:top">
@@ -515,7 +574,7 @@
                 <td style="padding:0px">
                   <br>
                   <p style="text-align:center;font-size:small;">
-                    2025, Made with &lt;3 and banana+strawberry smoothie
+                    2026, Made with &lt;3 and banana+strawberry smoothie
                     <br>
                     Adapted from <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron's
                       website</a>.
